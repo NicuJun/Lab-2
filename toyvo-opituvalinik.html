@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Опитувальник React.js</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Опитувальник про React.js</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Головна</a></li>
+                <li><a href="toyvo-opituvalinik.html">Опитувальник</a></li>
+                <li><a href="typo-news.html">Новини</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Ваша думка про React.js</h2>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="experience">Чи використовували ви React.js?</label>
+                    <select id="experience" name="experience" required>
+                        <option value="">Виберіть варіант</option>
+                        <option value="yes">Так</option>
+                        <option value="no">Ні</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="rating">Оцініть React.js від 1 до 5:</label>
+                    <input type="number" id="rating" name="rating" min="1" max="5" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="comments">Ваші коментарі:</label>
+                    <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Введіть свої коментарі тут..."></textarea>
+                </div>
+
+                <button type="submit">Відправити</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Якась цікава інформація</p>
+    </footer>
+</body>
+</html>
